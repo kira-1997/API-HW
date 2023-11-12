@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(186, 231, 253);
+}
+.container{
+    background-color: rgb(212, 225, 251);
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.box{
+    display: grid;
+    grid-template-rows: auto auto;
+    border: 3px solid rgb(7, 7, 7);
+    box-shadow: 5px 5px 5px rgb(6, 6, 6);
+    align-items: center;
+    border-radius: 1rem;
+    justify-content: center;
+    text-align: center;
+}
+
+img{
+    width: 15rem;
+    border: 3px solid black;
+    border-radius: 1rem;
+    margin-bottom: .5rem;
+}
